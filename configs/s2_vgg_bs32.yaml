@@ -1,0 +1,8 @@
+model: vgg16
+model_kwargs:
+  trainable: all
+  dropout: 0.3
+epochs: 30
+batch_size: 32
+lr: 0.001
+optimizer: Adam

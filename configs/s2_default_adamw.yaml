@@ -1,0 +1,7 @@
+model: default
+model_kwargs:
+  dropout: 0.3
+epochs: 30
+batch_size: 64
+lr: 0.001
+optimizer: AdamW
